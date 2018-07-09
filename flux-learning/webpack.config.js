@@ -3,8 +3,8 @@ var path = require('path');
 module.exports = {
    entry: "./src/app.js", // входная точка - исходный файл
    output:{
-       path: path.resolve(__dirname, './public'),     // путь к каталогу выходных файлов - папка public
-       publicPath: '/public/',
+       path: path.resolve(__dirname, './build'),     // путь к каталогу выходных файлов - папка public
+       publicPath: '/build/',
        filename: "bundle.js"       // название создаваемого файла
    },
    module:{
