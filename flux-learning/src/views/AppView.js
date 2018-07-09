@@ -20,7 +20,7 @@ class AppView extends React.Component {
             return;
         }
 
-        this.state.props.onAddItem(this.state.newItem);
+        this.props.onAddItem(this.state.newItem);
         this.setState({ newItem: '' });
     }
 
@@ -60,7 +60,7 @@ class Phone extends React.Component {
     constructor(props) {
         super(props);
         this.state = { text: props.text };
-        this.onClick = tkis.onClick.bind(this);
+        this.onClick = this.onClick.bind(this);
     }
 
     onClick(event) {

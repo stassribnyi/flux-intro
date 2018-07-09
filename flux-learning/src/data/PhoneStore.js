@@ -22,7 +22,8 @@ class PhoneStore extends ReduceStore {
 
                 return state;
             case ActionTypes.REMOVE_ITEM:
-                if (~state.indexOf(action.text)) {
+                let index = state.indexOf(action.text);
+                if (~index) {
                     return state.delete(index);
                 }
 

@@ -2,7 +2,7 @@
     "name": "flux-learning",
     "version": "1.0.0",
     "scripts": {
-        "dev": "webpack-dev-server --host --open",
+        "dev": "webpack-dev-server --hot --open",
         "build": "webpack"
     },
     "dependencies": {
