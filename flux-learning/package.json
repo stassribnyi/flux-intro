@@ -1,0 +1,22 @@
+{
+    "name": "flux-learning",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "webpack-dev-server --host --open",
+        "build": "webpack"
+    },
+    "dependencies": {
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "flux": "^3.1.3",
+        "immutable": "^3.8.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "webpack": "^4.15.1",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
